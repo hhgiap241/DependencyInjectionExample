@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean id="classA" class="com.kms.giaphoang.overview.circulardi.ClassA" lazy-init="true">-->
+<!--        <constructor-arg ref="classB"/>-->
+<!--    </bean>-->
+<!--    <bean id="classB" class="com.kms.giaphoang.overview.circulardi.ClassB" lazy-init="true">-->
+<!--        <constructor-arg ref="classA"/>-->
+<!--    </bean>-->
+    <bean id="classAver2" class="com.kms.giaphoang.overview.circulardi.ClassAver2">
+        <property name="classBver2" ref="classBver2"/>
+    </bean>
+    <bean id="classBver2" class="com.kms.giaphoang.overview.circulardi.ClassBver2">
+        <property name="classAver2" ref="classAver2"/>
+    </bean>
+</beans>

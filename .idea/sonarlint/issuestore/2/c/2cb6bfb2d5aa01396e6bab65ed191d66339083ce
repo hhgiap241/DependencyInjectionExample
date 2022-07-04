@@ -1,0 +1,14 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­Öú¢şÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ùµö
+T	java:S106"9Replace this use of System.out or System.err by a logger.(´×‡{8•—Ğš0
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(îº•´ıÿÿÿÿ8‚•—Ğš0
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(Óç€©øÿÿÿÿ8ÛÅ«Ğš0
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(½ù¹îüÿÿÿÿ8Ö“ªÑš0
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(§˜ù·şÿÿÿÿ8¸æÔÑš0
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(Óç€©øÿÿÿÿ8´ËŸÖš0
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(½ù¹îüÿÿÿÿ8Ñ™¤Öš0
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(§˜ù·şÿÿÿÿ8à¼¥Öš0
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(§¦œ8á¼¥Öš0
+X
+java:S1128";Remove this unused import 'javax.annotation.PostConstruct'.(›ÅÁ8´°öÒš0

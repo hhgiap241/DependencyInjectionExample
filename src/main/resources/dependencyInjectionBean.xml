@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    <bean id ="car" class="com.kms.giaphoang.overview.di.Car">-->
+<!--        <constructor-arg index="0" value="Toyota"/>-->
+<!--        <constructor-arg index="1" value="Red"/>-->
+<!--        <constructor-arg index="2" type="com.kms.giaphoang.overview.di.Engine" ref="engine"/>-->
+<!--        <constructor-arg index="3" type="com.kms.giaphoang.overview.di.Wheel" ref="wheel"/>-->
+<!--    </bean>-->
+    <bean id ="car2" class="com.kms.giaphoang.overview.di.Car">
+        <constructor-arg type="java.lang.String" value="Mazda"/>
+        <constructor-arg index="1" value="Red"/>
+        <property name="engine" ref="engine"/>
+    </bean>
+<!--    <bean id ="car3" class="com.kms.giaphoang.overview.di.Car" >-->
+<!--        <constructor-arg name="name" value="Toyota" />-->
+<!--        <constructor-arg type="java.lang.String" value="Red"/>-->
+<!--        <constructor-arg index="2" type="com.kms.giaphoang.overview.di.Engine" ref="engine"/>-->
+<!--        <constructor-arg index="3" type="com.kms.giaphoang.overview.di.Wheel" ref="wheel"/>-->
+<!--        <property name="wheel" ref="wheel"/>-->
+<!--    </bean>-->
+    <bean id="engine" name="engine" class="com.kms.giaphoang.overview.di.Engine">
+        <constructor-arg value="Engine V10"/>
+    </bean>
+    <bean id="wheel" class="com.kms.giaphoang.overview.di.Wheel">
+        <constructor-arg value="Motorola Wheels"/>
+    </bean>
+</beans>

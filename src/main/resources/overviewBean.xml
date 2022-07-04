@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+        default-init-method="init"
+        default-destroy-method="destroy">
+    <bean id="helloWorld" class="com.kms.giaphoang.overview.example1.HelloWorld">
+        <property name="message" value="Hello World 23!"  />
+    </bean>
+    <bean id="helloVietnam" class="com.kms.giaphoang.overview.example1.HelloVietnam" parent="helloWorld">
+        <property name="anotherMessage" value="Hello Vietnam!"  />
+<!--        <property name="message" value="Hello Vietna222m!"  />-->
+    </bean>
+</beans>
